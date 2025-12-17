@@ -12,4 +12,5 @@ let y = 2
 console.log("Is x greater than y? " + (x > y))
 console.log("Is x equal to y? " + (x == y))
 
+// Don't do this! This will assign the variable value, not compare the values.
 console.log(x = y)
