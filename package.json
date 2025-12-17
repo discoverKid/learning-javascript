@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js" 
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/discoverKid/learning-javascript/issues"
   },
-  "homepage": "https://github.com/discoverKid/learning-javascript#readme"
+  "homepage": "https://github.com/discoverKid/learning-javascript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
