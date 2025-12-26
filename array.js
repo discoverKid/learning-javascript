@@ -13,3 +13,24 @@ console.log(fruits)
 
 fruits.splice(1, 0, 'banana')
 console.log(fruits)
+
+// Objects within an array. Below is an array of cats made up of cat objects.
+let cats = [
+    {
+        "name": 'Fluffy',
+        "age": 2
+    },
+    {
+        "name": 'Whiskers',
+        "age": 10
+    },
+    {
+        "name": 'Munchkin',
+        "age": 5
+    }
+    
+]
+
+console.log(cats)
+console.log(cats[0])
+console.log(cats[1].name)
